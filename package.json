@@ -1,0 +1,36 @@
+{
+  "name": "bills-ai",
+  "version": "1.0.0",
+  "description": "Bills AI it is a POC project to try to create a solution with Bills domain + AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "build": "rimraf dist && tsc -p tsconfig.json",
+    "test": "vitest --silent",
+    "test:cov": "vitest run --silent --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.5",
+    "module-alias": "^2.2.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4",
+    "vite-tsconfig-paths": "^5.0.1",
+    "vitest": "^2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoadsix/bills-ai.git"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "Thiago Andrade Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagoadsix/bills-ai/issues"
+  },
+  "homepage": "https://github.com/thiagoadsix/bills-ai#readme",
+  "_moduleAliases": {
+    "@": "dist/src"
+  }
+}

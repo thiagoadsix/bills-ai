@@ -8,7 +8,7 @@
     "build": "rimraf dist && tsc -p tsconfig.json",
     "test": "vitest --silent",
     "test:cov": "vitest run --silent --coverage",
-    "resources": "bash __local__/resources/$1/$2/$3"
+    "resources": "node __scripts__/run-resources.js"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^2.0.5",

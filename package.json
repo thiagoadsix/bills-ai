@@ -32,5 +32,9 @@
   "homepage": "https://github.com/thiagoadsix/bills-ai#readme",
   "_moduleAliases": {
     "@": "dist/src"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.2.10",
+    "langchain": "^0.2.18"
   }
 }

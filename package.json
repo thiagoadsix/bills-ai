@@ -36,5 +36,8 @@
   "dependencies": {
     "@langchain/openai": "^0.2.10",
     "langchain": "^0.2.18"
+  },
+  "overrides": {
+    "@langchain/core": "0.1.5"
   }
 }
